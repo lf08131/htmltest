@@ -1,0 +1,16 @@
+body{
+	background-image:url(../img/background.jpg);
+	background-size: 100%;
+	}
+	form{
+		text-align:center;
+		border-color:blue;
+	}
+	h1 {
+		text-align:center;
+		color:blue;
+	}
+	h2 {
+		text-align:center;
+		color:red;
+	}

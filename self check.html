@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>每日一练</title>
+		
+
+	</head>
+	<body>
+		<link rel="stylesheet" href="css/homepage.css" />
+		
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+ <script>	
+ function validateForm(){
+	 
+	  var a=document.getElementsByName("test");
+		for (var i = 0; i < a.length; i++) {	
+		if (a[i].checked == true) {//如果选中，下面的alert就会弹出选中的值
+var b=a[i].value;
+} 
+	}	  
+	if(b=="A"){
+		alert("恭喜你，答对了")
+		window.location="self1.html";
+	}
+	 else{
+		 alert("抱歉,此题错误")
+	 }
+}
+</script>
+
+    <form  action="Unit test.html" name="myForm" method="post">
+		<h1 style="text-align: center;">I __________ to send Peter a gift to congratulate him on his marriage， </h1>
+		<h1 style="text-align: center;">but I couldn't manage it</h1>
+		<div class="position">
+		
+		<input name="test" type="radio" value="A" style="height: 30px;width: 200px;color: #0000FF;"/>A. had hoped<br />
+		<input name="test" type="radio" value="D" style="height: 30px;width: 200px;color: #0000FF;"/>B. am hoping <br />
+	    <input name="test" type="radio" value="D" style="height: 30px;width: 200px;color: #0000FF;"/>C. have hoped <br />
+		 <input name="test" type="radio" value="D" style="height: 30px;width: 200px;color: #0000FF;"/>D. would hope<br />
+		</div>
+		<br />
+		<br />
+		<div class="pos">
+		<button type="button"  onclick=" validateForm()" style="height: 30px;width: 90px;color: #0000FF;">提交</button>
+		</div>
+	</form>
+
+			</div>
+	</body>
+</html>
